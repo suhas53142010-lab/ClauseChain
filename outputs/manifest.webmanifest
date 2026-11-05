@@ -1,0 +1,15 @@
+{
+  "id": "/",
+  "name": "ClauseChain · Contract Studio",
+  "short_name": "ClauseChain",
+  "description": "Draft and review Indian agreements with ClauseChain.",
+  "start_url": "/",
+  "scope": "/",
+  "display": "standalone",
+  "orientation": "portrait-primary",
+  "background_color": "#191b1a",
+  "theme_color": "#191b1a",
+  "icons": [
+    { "src": "/icon.svg", "sizes": "any", "type": "image/svg+xml", "purpose": "any maskable" }
+  ]
+}
