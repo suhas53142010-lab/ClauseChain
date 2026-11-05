@@ -1,5 +1,5 @@
-const CACHE = "clausechain-shell-v4";
-const SHELL = ["/", "/index.html", "/clausechain.html", "/manifest.webmanifest?v=4", "/icon.svg?v=4"];
+const CACHE = "clausechain-shell-v5";
+const SHELL = ["/", "/index.html", "/clausechain.html", "/manifest.webmanifest?v=5", "/icon.svg?v=5"];
 self.addEventListener("install", event => {
   event.waitUntil(caches.open(CACHE).then(cache => cache.addAll(SHELL)).then(() => self.skipWaiting()));
 });
